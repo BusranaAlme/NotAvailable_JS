@@ -21,7 +21,7 @@ public class BoatGameUI extends JFrame {
         backgroundPanel.setLayout(new GridBagLayout());
 
         // Create buttons with blue background and custom font
-        JButton startButton = new JButton("Start");
+        JButton startButton = new JButton("Play");
         startButton.setBackground(Color.BLUE);
         startButton.setForeground(Color.WHITE);
         startButton.setFont(new Font("Arial", Font.BOLD | Font.ITALIC, 48));
@@ -86,4 +86,3 @@ public class BoatGameUI extends JFrame {
         }
     }
 }
-//Modified

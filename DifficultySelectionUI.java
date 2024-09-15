@@ -7,6 +7,8 @@ import java.awt.Graphics;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Image;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
@@ -62,6 +64,23 @@ public class DifficultySelectionUI extends JFrame {
 
         // Center the frame on the screen
         setLocationRelativeTo(null);
+
+        // Add ActionListener to 'Easy' button to open Easylevel game
+        easyButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Dispose of the current frame
+                dispose();
+
+                // Create a new frame to host the game
+                JFrame gameFrame = new JFrame("Flappy Bird - Easy Level");
+                gameFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                gameFrame.add(new Easylevel());
+                gameFrame.pack();
+                gameFrame.setLocationRelativeTo(null); // Center the frame
+                gameFrame.setVisible(true);
+            }
+        });
     }
 
     // Custom JPanel to handle the background image
@@ -84,5 +103,10 @@ public class DifficultySelectionUI extends JFrame {
                 g.drawImage(backgroundImage, 0, 0, getWidth(), getHeight(), this);
             }
         }
+    }
+
+    public static void main(String[] args) {
+        // Run the DifficultySelectionUI
+        new DifficultySelectionUI().setVisible(true);
     }
 }

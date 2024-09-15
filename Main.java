@@ -9,6 +9,3 @@ public class Main {
         ui.setVisible(true);
     }
 }
-//Changed
-//Updated
-
