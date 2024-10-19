@@ -1,18 +1,9 @@
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.UnsupportedAudioFileException;
-import java.io.*;
-import javax.imageio.ImageIO;
-import java.awt.Image;
-import java.io.File;
-import java.io.IOException;
-
-
+import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -187,7 +178,7 @@ public class BoatGame extends JPanel implements ActionListener {
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
-    
+
         if (currentState == GameState.MENU) {
             g.drawImage(mainMenuBackground, 0, 0, getWidth(), getHeight(), this); // Draw menu background
             drawMenu(g);
@@ -207,7 +198,7 @@ public class BoatGame extends JPanel implements ActionListener {
             drawCredits(g);
         }
     }
-    
+
 
     // Draw the menu screen
     private void drawMenu(Graphics g) {
@@ -241,11 +232,11 @@ public class BoatGame extends JPanel implements ActionListener {
     private void drawCredits(Graphics g) {
 
         // Set the color for the rectangle background behind the text
-    Color backgroundColor = new Color(0, 0, 0, 150); // Black with some transparency
-    g.setColor(backgroundColor);
+        Color backgroundColor = new Color(0, 0, 0, 150); // Black with some transparency
+        g.setColor(backgroundColor);
 
-    // Draw the rectangle behind the text (adjust the coordinates and size as needed)
-    g.fillRect(450, 150, 400, 400);  // x, y, width, height for the rectangle
+        // Draw the rectangle behind the text (adjust the coordinates and size as needed)
+        g.fillRect(450, 150, 400, 400);  // x, y, width, height for the rectangle
 
         g.setColor(Color.WHITE);
         g.setFont(new Font("Arial", Font.BOLD, 24));
@@ -259,7 +250,7 @@ public class BoatGame extends JPanel implements ActionListener {
         g.setColor(Color.WHITE);
         g.drawString("Back", backButton.x + 25, backButton.y + 35);
     }
-    
+
     // Draw the difficulty selection menu with vertical alignment
     private void drawDifficultyMenu(Graphics g) {
         g.setColor(Color.BLACK);
@@ -324,7 +315,7 @@ public class BoatGame extends JPanel implements ActionListener {
         g.setColor(backgroundColor);
         // Draw the background rectangle for the text (adjust the coordinates and size as needed)
         g.fillRect(575, 270, 130, 40);  // x, y, width, height
-       
+
         g.setColor(Color.WHITE);
         g.setFont(new Font("Arial", Font.BOLD, 24));
         g.drawString("Score: " + score, 590, 300);
@@ -343,28 +334,28 @@ public class BoatGame extends JPanel implements ActionListener {
     // Draw instructions screen
     private void drawInstructions(Graphics g) {
         // Draw the instruction background image
-    g.drawImage(instructionBackground, 0, 0, getWidth(), getHeight(), this);
+        g.drawImage(instructionBackground, 0, 0, getWidth(), getHeight(), this);
 
-    // Set the font and color for the text
-    g.setFont(new Font("Arial", Font.BOLD, 24));
+        // Set the font and color for the text
+        g.setFont(new Font("Arial", Font.BOLD, 24));
 
-    // Set the color for the background rectangle (e.g., a semi-transparent color)
-    Color backgroundColor = new Color(0, 0, 0, 150); // Black with 150/255 transparency
-    g.setColor(backgroundColor);
+        // Set the color for the background rectangle (e.g., a semi-transparent color)
+        Color backgroundColor = new Color(0, 0, 0, 150); // Black with 150/255 transparency
+        g.setColor(backgroundColor);
 
-    // Draw the background rectangle for the text (adjust the coordinates and size as needed)
-    g.fillRect(220, 170, 800, 300);  // x, y, width, height
+        // Draw the background rectangle for the text (adjust the coordinates and size as needed)
+        g.fillRect(220, 170, 800, 300);  // x, y, width, height
 
-    // Set the color for the text
-    g.setColor(Color.WHITE);
+        // Set the color for the text
+        g.setColor(Color.WHITE);
 
-    // Draw the instruction text on top of the background
-    g.drawString("INSTRUCTIONS:", 250, 240);
-    g.drawString("1. Use the UP and DOWN arrow keys to move the boat.", 260, 290);
-    g.drawString("2. Avoid hitting the obstacles.", 260, 340);
-    g.drawString("3. Press ESC to pause the game.", 260, 390);
+        // Draw the instruction text on top of the background
+        g.drawString("INSTRUCTIONS:", 250, 240);
+        g.drawString("1. Use the UP and DOWN arrow keys to move the boat.", 260, 290);
+        g.drawString("2. Avoid hitting the obstacles.", 260, 340);
+        g.drawString("3. Press ESC to pause the game.", 260, 390);
 
-    g.setColor(Color.CYAN);
+        g.setColor(Color.CYAN);
         g.fillRect(backButton.x, backButton.y, backButton.width, backButton.height);
         g.setColor(Color.WHITE);
         g.drawString("Back", backButton.x + 20, backButton.y + 35);
@@ -382,19 +373,19 @@ public class BoatGame extends JPanel implements ActionListener {
 
     private void updateObstacles() {
         Random rand = new Random();
-    
+
         // Generate obstacles with a 5% chance per frame
         if (rand.nextInt(100) < 5) {
             // Try to create a new obstacle that does not overlap with others
             boolean overlaps = true;
             Obstacle newObstacle = null;
-    
+
             // Keep trying to create a non-overlapping obstacle
             while (overlaps) {
                 int startY = rand.nextInt(getHeight() - 275) + 83;  // Ensure it spawns between the boundaries
                 newObstacle = new Obstacle(getWidth(), startY);
                 overlaps = false;  // Assume no overlap, then check
-    
+
                 for (Obstacle obs : obstacles) {
                     // Check if the new obstacle intersects with any existing obstacle
                     if (newObstacle.getBounds().intersects(obs.getBounds())) {
@@ -403,16 +394,16 @@ public class BoatGame extends JPanel implements ActionListener {
                     }
                 }
             }
-    
+
             // If no overlap is found, add the obstacle
             obstacles.add(newObstacle);
         }
-    
+
         // Move existing obstacles and remove them if they go off-screen
         for (int i = 0; i < obstacles.size(); i++) {
             Obstacle obs = obstacles.get(i);
             obs.move(obstacleSpeed);  // Adjust obstacle speed based on difficulty
-    
+
             if (obs.getX() < 0) {
                 obstacles.remove(i);
                 score++;
@@ -450,88 +441,4 @@ public class BoatGame extends JPanel implements ActionListener {
 
 
 
-}
-
-class Boat {
-    private int x, y;
-    private int dx, dy;
-    private int width, height;
-    private Image boatImage;
-
-    public Boat() {
-        width = 58;
-        height = 57;
-        x = 100;
-        y = 350;
-        boatImage = new ImageIcon(getClass().getResource("/assets/boat.png")).getImage();
-    }
-
-    public void draw(Graphics g) {
-        //g.setColor(Color.RED);
-        //g.fillRect(x, y, width, height);
-
-        g.drawImage(boatImage, x, y, width, height, null);
-    }
-
-    public void move() {
-        x += dx;
-        y += dy;
-
-        if (y < 83) y = 83;
-        if (y > 566) y = 566;
-    }
-
-    public void keyPressed(KeyEvent e) {
-        int key = e.getKeyCode();
-        if (key == KeyEvent.VK_UP) {
-            dy = -15;
-        }
-        if (key == KeyEvent.VK_DOWN) {
-            dy = 15;
-        }
-    }
-
-    public void keyReleased(KeyEvent e) {
-        int key = e.getKeyCode();
-        if (key == KeyEvent.VK_UP || key == KeyEvent.VK_DOWN) {
-            dy = 0;
-        }
-    }
-
-    public Rectangle getBounds() {
-        return new Rectangle(x, y, width, height);
-    }
-}
-
-class Obstacle {
-    private int x, y;
-    private int width, height;
-    private Image obstacleImage;
-
-    public Obstacle(int startX, int startY) {
-        x = startX;
-        y = startY;
-        width = 53;
-        height = 44;
-            // load obstacle image
-        obstacleImage = new ImageIcon(getClass().getResource("/assets/obstacle.png")).getImage();
-    }
-
-    public void draw(Graphics g) {
-       // g.setColor(Color.GRAY);
-       // g.fillRect(x, y, width, height);
-       g.drawImage(obstacleImage, x, y, width, height, null);  // Draw the obstacle
-    }
-
-    public void move(int speed) {
-        x -= speed;  // Adjust speed based on difficulty level
-    }
-
-    public int getX() {
-        return x;
-    }
-
-    public Rectangle getBounds() {
-        return new Rectangle(x, y, width, height);
-    }
 }
