@@ -202,31 +202,50 @@ public class BoatGame extends JPanel implements ActionListener {
 
     // Draw the menu screen
     private void drawMenu(Graphics g) {
-        g.setColor(Color.BLACK);
-        g.setFont(new Font("Arial", Font.BOLD, 36));
-        g.drawString("Nouka Baich", 530, 100);
+        Graphics2D g2d = (Graphics2D) g;
+        g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);  // For smooth edges
 
-        g.setFont(new Font("Arial", Font.PLAIN, 24));
-        g.setColor(Color.GREEN);
-        g.fillRect(startButton.x, startButton.y, startButton.width, startButton.height);
-        g.setColor(Color.WHITE);
-        g.drawString("Start", startButton.x + 20, startButton.y + 35);
+        // Set font for the title
+        g2d.setColor(Color.BLACK);
+        g2d.setFont(new Font("Arial", Font.BOLD, 36));
+        g2d.drawString("Nouka Baich", 530, 100);
 
-        g.setColor(Color.BLUE);
-        g.fillRect(instructionsButton.x, instructionsButton.y, instructionsButton.width, instructionsButton.height);
-        g.setColor(Color.WHITE);
-        g.drawString("Instructions", instructionsButton.x + 10, instructionsButton.y + 35);
+        // Set common font for buttons
+        g2d.setFont(new Font("Arial", Font.PLAIN, 24));
 
-        g.setColor(Color.MAGENTA);
-        g.fillRect(creditButton.x, creditButton.y, creditButton.width, creditButton.height);
-        g.setColor(Color.WHITE);
-        g.drawString("Credits", creditButton.x + 35, creditButton.y + 35);
+        // Start Button with rounded corners and shadow
+        g2d.setColor(Color.GRAY); // Shadow
+        g2d.fillRoundRect(startButton.x + 5, startButton.y + 5, startButton.width, startButton.height, 20, 20);  // Shadow offset by 5px
+        g2d.setColor(Color.GREEN); // Button color
+        g2d.fillRoundRect(startButton.x, startButton.y, startButton.width, startButton.height, 20, 20);
+        g2d.setColor(Color.WHITE);
+        g2d.drawString("Start", startButton.x + 20, startButton.y + 35);
 
-        g.setColor(Color.RED);
-        g.fillRect(exitButton.x, exitButton.y, exitButton.width, exitButton.height);
-        g.setColor(Color.WHITE);
-        g.drawString("Exit", exitButton.x + 25, exitButton.y + 35);
+        // Instructions Button with rounded corners and shadow
+        g2d.setColor(Color.GRAY); // Shadow
+        g2d.fillRoundRect(instructionsButton.x + 5, instructionsButton.y + 5, instructionsButton.width, instructionsButton.height, 20, 20);
+        g2d.setColor(Color.BLUE); // Button color
+        g2d.fillRoundRect(instructionsButton.x, instructionsButton.y, instructionsButton.width, instructionsButton.height, 20, 20);
+        g2d.setColor(Color.WHITE);
+        g2d.drawString("Instructions", instructionsButton.x + 10, instructionsButton.y + 35);
+
+        // Credits Button with rounded corners and shadow
+        g2d.setColor(Color.GRAY); // Shadow
+        g2d.fillRoundRect(creditButton.x + 5, creditButton.y + 5, creditButton.width, creditButton.height, 20, 20);
+        g2d.setColor(Color.MAGENTA); // Button color
+        g2d.fillRoundRect(creditButton.x, creditButton.y, creditButton.width, creditButton.height, 20, 20);
+        g2d.setColor(Color.WHITE);
+        g2d.drawString("Credits", creditButton.x + 35, creditButton.y + 35);
+
+        // Exit Button with rounded corners and shadow
+        g2d.setColor(Color.GRAY); // Shadow
+        g2d.fillRoundRect(exitButton.x + 5, exitButton.y + 5, exitButton.width, exitButton.height, 20, 20);
+        g2d.setColor(Color.RED); // Button color
+        g2d.fillRoundRect(exitButton.x, exitButton.y, exitButton.width, exitButton.height, 20, 20);
+        g2d.setColor(Color.WHITE);
+        g2d.drawString("Exit", exitButton.x + 25, exitButton.y + 35);
     }
+
 
     // Draw the credits screen
     private void drawCredits(Graphics g) {
