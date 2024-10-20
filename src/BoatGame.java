@@ -272,30 +272,42 @@ public class BoatGame extends JPanel implements ActionListener {
 
     // Draw the difficulty selection menu with vertical alignment
     private void drawDifficultyMenu(Graphics g) {
-        g.setColor(Color.BLACK);
-        g.setFont(new Font("Arial", Font.BOLD, 36));
-        g.drawString("Select Difficulty", 500, 200);
+        Graphics2D g2d = (Graphics2D) g;
+        g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);  // For smooth edges
 
-        g.setFont(new Font("Arial", Font.PLAIN, 24));
+        // Set font for the title
+        g2d.setColor(Color.BLACK);
+        g2d.setFont(new Font("Arial", Font.BOLD, 36));
+        g2d.drawString("Select Difficulty", 500, 200);
 
-        // Easy button
-        g.setColor(Color.GREEN);
-        g.fillRect(easyButton.x, easyButton.y, easyButton.width, easyButton.height);
-        g.setColor(Color.WHITE);
-        g.drawString("Easy", easyButton.x + 45, easyButton.y + 35);
+        // Set common font for buttons
+        g2d.setFont(new Font("Arial", Font.PLAIN, 24));
 
-        // Medium button
-        g.setColor(Color.ORANGE);
-        g.fillRect(mediumButton.x, mediumButton.y, mediumButton.width, mediumButton.height);
-        g.setColor(Color.WHITE);
-        g.drawString("Medium", mediumButton.x + 30, mediumButton.y + 35);
+        // Easy Button with rounded corners and shadow
+        g2d.setColor(Color.GRAY); // Shadow
+        g2d.fillRoundRect(easyButton.x + 5, easyButton.y + 5, easyButton.width, easyButton.height, 20, 20);  // Shadow offset by 5px
+        g2d.setColor(Color.GREEN); // Button color
+        g2d.fillRoundRect(easyButton.x, easyButton.y, easyButton.width, easyButton.height, 20, 20);
+        g2d.setColor(Color.WHITE);
+        g2d.drawString("Easy", easyButton.x + 45, easyButton.y + 35);
 
-        // Hard button
-        g.setColor(Color.RED);
-        g.fillRect(hardButton.x, hardButton.y, hardButton.width, hardButton.height);
-        g.setColor(Color.WHITE);
-        g.drawString("Hard", hardButton.x + 45, hardButton.y + 35);
+        // Medium Button with rounded corners and shadow
+        g2d.setColor(Color.GRAY); // Shadow
+        g2d.fillRoundRect(mediumButton.x + 5, mediumButton.y + 5, mediumButton.width, mediumButton.height, 20, 20);
+        g2d.setColor(Color.ORANGE); // Button color
+        g2d.fillRoundRect(mediumButton.x, mediumButton.y, mediumButton.width, mediumButton.height, 20, 20);
+        g2d.setColor(Color.WHITE);
+        g2d.drawString("Medium", mediumButton.x + 30, mediumButton.y + 35);
+
+        // Hard Button with rounded corners and shadow
+        g2d.setColor(Color.GRAY); // Shadow
+        g2d.fillRoundRect(hardButton.x + 5, hardButton.y + 5, hardButton.width, hardButton.height, 20, 20);
+        g2d.setColor(Color.RED); // Button color
+        g2d.fillRoundRect(hardButton.x, hardButton.y, hardButton.width, hardButton.height, 20, 20);
+        g2d.setColor(Color.WHITE);
+        g2d.drawString("Hard", hardButton.x + 45, hardButton.y + 35);
     }
+
 
     // Draw the game screen
     private void drawGame(Graphics g) {
