@@ -42,7 +42,7 @@
 
 
 <div align="center">
- <p style="color:orange"><h2><u><i>Background</i>i</u></h2></p> 
+ <p style="color:orange"><h2><u><i>Background</i></u></h2></p> 
 </div>
 
 
@@ -59,7 +59,7 @@
 
 <div align="center">  
  
-<p style="color:orange"><h2><u><i>Boat</i><</u><h2>/p>
+<p style="color:orange"><h2><u><i>Boat</i></u><h2></p>
 </div>
 
 *  ***<p style="color:lime">A river boat,Fantastic looking*** </p> 
