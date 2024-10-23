@@ -1,4 +1,3 @@
-
 <center><b><u><font color="Yellow" size="6">Game Property</font></u></b></center>
 <br/>
 
@@ -47,7 +46,7 @@
 *  ***<p style="color:lime">Multiple obstale coming from right side.(let's see the next picture of obstacle in this game.)*** </p>
 
 <font color="Lime">
-<img src="Image/mainbg.png" height=300 width=1000 border=4 style="border-radius:15px" >
+<img src="image/mainbg.png" height=300 width=1000 border=4 style="border-radius:15px" >
 </font color>
 <br/>
 <br/>
@@ -59,7 +58,7 @@
 * ***<p style="color:lime">It's been developed in Adobe Photoshop.***</p>
 
 <font color="lime">
-<img src="Image/boat.png" height=300 width=1000 border=4 style="border-radius:15px">
+<img src="image/boat.png" height=300 width=1000 border=4 style="border-radius:15px">
 </font>
 <br/>
 <br/>
@@ -75,7 +74,7 @@
 * ***<p style="color:gold">Credit</p>***
 * ***<p style="color:gold">EXIT</p>***
 <font color ="navy">
-<img src="Image/FirstWindow.png" height=300 width=1000 border=5 style="border-radius:15px"></p>
+<img src="image/FirstWindow.png" height=300 width=1000 border=5 style="border-radius:15px"></p>
 </font>  
 <br>
 <br><br>
@@ -93,7 +92,7 @@
 
 
 <font color="#33d3ff">
-<img src="Image/SecondWindow.png" height=300 width=1000 border=5 style="border-radius:15px">
+<img src="image/SecondWindow.png" height=300 width=1000 border=5 style="border-radius:15px">
 </font color>
 <br/>
 <br/>
@@ -104,48 +103,33 @@
 * <p style="color:lime"> Use downward arrow sign to move the boat perpendicularly downward.</p>
 * <p style="color:lime"> Press ESC kew to exit the game.</p>
 <font color="lime">
-<img src="Image/InstructionWindow.png"  height=300 width=1000 border=4 style="border-radius:15px">
+<img src="image/InstructionWindow.png"  height=300 width=1000 border=4 style="border-radius:15px">
 </font>
 <br>
 <br/>
 <br/>  
 
 > ## <p style="color:orange">Sailing Boat and Obstacles</p>
-***Main obstacle in this game. These come from right direction of the window with a minimum speed and becomes faster with the time.***  
-* major obstacle names  
+***<p style="color:lime">Main obstacle in this game. These come from right direction of the window with a minimum speed and becomes faster with the time.***</p> 
+* ***<p style="color:lime">major obstacle names:-***</p>
 
-    * <p style="color:lime">***Stone***</p>
+    *  ***<p style="color:lime">Stone***</p>
     
 
 
 <font color="grey">
-<img src="Image/SailingWindow.png" height=300 width=1000 border=4>
+<img src="image/SailingWindow.png" height=300 width=1000 border=4>
 </font color>
 <br/>
 <br/>
 <br/>  
->## ***BOAT***  
 
- 
-
-
-
-
-> ## Obstacles
+> ## <p style="color:orange">Obstacles</p>
 
 
 <font color="Black">
-<img src="Image/obstacle.png" height=300 width=1000 border=4>
+<img src="image/obstacle.png" height=300 width=1000 border=4>
 </font>  
-<br/>
-<br/>
-<br/>
-
-> ## First Window Background  
-* ***Two small boats and two Cartoon obejcts are chasing each other with water gun***
-<font color="Pink">
-<img src="Image/InstructionWindow.png" height=300 width=1000 border=6>
-</font>
 <br/>
 <br/>
 <br/>
@@ -155,34 +139,41 @@
   
 
 
-> ## Second Window   
-* ***It basically comes with the pre-mentioned three options.***
+> ## <p style="color:Orange">Game Over </p>  
+
+* ***<p style="color:lime">It offers two options:-***</p>
+     * ***<p style="color:lime">Play again***</p>  
+     *  ***<p style="color:lime">Go back to Main menu***</p>
 
 
-<font color="Blue">
-<img src="Image/SailingWindow.png" height=300 width=1000 border=>
-</font>
-<br>
-<br>
+
 <font color="yellow">
-<img src="Image/GameOverWindow.png" height=300 width=1000 border=4>
-</font color>
-<br/>
-<br/>
-<br/>  
-<font color="yellow">
-<img src="Image/CreditWindow.png" height=300 width=1000 border=4>
+<img src="image/GameOverWindow.png" height=300 width=1000 border=4>
 </font color>
 <br/>
 <br/>
 <br/>  
 
-## ***Contact Us:***
-***facebook link***
+> ## <p style="color:Orange"> Created By</p>  
+* ***There is an option to go back to previous window.***  
+
+* ***<p style="color:pink">Md.Ahad Siddiki***</p>  
+* ***<p style="color:pink">Most.Busrana Alme***</p>  
+* ***<p style="color:pink">Md.Kobir Hossain***</p>
+
+<font color="yellow">
+<img src="image/CreditWindow.png" height=300 width=1000 border=4>
+</font color>
+<br/>
+<br/>
+<br/>  
+
+## ***<p style="color:magenta">Contact Us:***</p>
+***<p style="color:magenta">facebook link***
 
 >[Ahad Siddiki](https://www.facebook.com/ahad.siddike)  
 [Busrana Alme](https://www.facebook.com/search/top?q=busrana%20alme)  
 [Md Kabir Hossain](https://www.facebook.com/Kabir.Hossain2429/)
 
 
-This is our First Java Project. It's mainly a GUI based where we tried to implement our idea of a traditional Bangladeshi game called Nouka Baich.
+
