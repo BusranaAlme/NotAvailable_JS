@@ -82,7 +82,7 @@ public class GameRenderer {
 
         Color backgroundColor = new Color(0, 0, 0, 200);
         g.setColor(backgroundColor);
-        g.fillRect(575, 270, 130, 40);
+        g.fillRect(575, 270, 150, 40);
 
         g.setColor(Color.WHITE);
         g.setFont(new Font("Arial", Font.BOLD, 24));
