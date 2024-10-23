@@ -1,3 +1,5 @@
+import MainGame.*;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

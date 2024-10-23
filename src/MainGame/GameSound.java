@@ -1,3 +1,5 @@
+package MainGame;
+import BoatObstacle.*;
 import javax.sound.sampled.*;
 import java.io.*;
 

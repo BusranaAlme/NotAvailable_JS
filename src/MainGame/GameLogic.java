@@ -1,3 +1,5 @@
+package MainGame;
+import BoatObstacle.*;
 import java.util.ArrayList;
 import java.util.Random;
 

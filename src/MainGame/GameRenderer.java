@@ -1,3 +1,5 @@
+package MainGame;
+import BoatObstacle.*;
 import java.awt.*;
 
 public class GameRenderer {
