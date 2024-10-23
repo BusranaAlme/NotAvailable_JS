@@ -47,7 +47,7 @@
 *  ***<p style="color:lime">Multiple obstale coming from right side.(let's see the next picture of obstacle in this game.)*** </p>
 
 <font color="Lime">
-<img src="mainbg.png" height=300 width=1000 border=4 style="border-radius:15px" >
+<img src="image/mainbg.png" height=300 width=1000 border=4 style="border-radius:15px" >
 </font color>
 <br/>
 <br/>
@@ -59,7 +59,7 @@
 * ***<p style="color:lime">It's been developed in Adobe Photoshop.***</p>
 
 <font color="lime">
-<img src="boat.png" height=300 width=1000 border=4 style="border-radius:15px">
+<img src="image/boat.png" height=300 width=1000 border=4 style="border-radius:15px">
 </font>
 <br/>
 <br/>
@@ -75,7 +75,7 @@
 * ***<p style="color:gold">Credit</p>***
 * ***<p style="color:gold">EXIT</p>***
 <font color ="navy">
-<img src="FirstWindow.png" height=300 width=1000 border=5 style="border-radius:15px"></p>
+<img src="image/FirstWindow.png" height=300 width=1000 border=5 style="border-radius:15px"></p>
 </font>  
 <br>
 <br><br>
@@ -93,7 +93,7 @@
 
 
 <font color="#33d3ff">
-<img src="SecondWindow.png" height=300 width=1000 border=5 style="border-radius:15px">
+<img src="image/SecondWindow.png" height=300 width=1000 border=5 style="border-radius:15px">
 </font color>
 <br/>
 <br/>
@@ -104,7 +104,7 @@
 * <p style="color:lime"> Use downward arrow sign to move the boat perpendicularly downward.</p>
 * <p style="color:lime"> Press ESC kew to exit the game.</p>
 <font color="lime">
-<img src="InstructionWindow.png"  height=300 width=1000 border=4 style="border-radius:15px">
+<img src="image/InstructionWindow.png"  height=300 width=1000 border=4 style="border-radius:15px">
 </font>
 <br>
 <br/>
@@ -119,7 +119,7 @@
 
 
 <font color="grey">
-<img src="SailingWindow.png" height=300 width=1000 border=4>
+<img src="image/SailingWindow.png" height=300 width=1000 border=4>
 </font color>
 <br/>
 <br/>
@@ -135,7 +135,7 @@
 
 
 <font color="Black">
-<img src="obstacle.png" height=300 width=1000 border=4>
+<img src="image/obstacle.png" height=300 width=1000 border=4>
 </font>  
 <br/>
 <br/>
@@ -144,7 +144,7 @@
 > ## First Window Background  
 * ***Two small boats and two Cartoon obejcts are chasing each other with water gun***
 <font color="Pink">
-<img src="InstructionWindow.png" height=300 width=1000 border=6>
+<img src="image/InstructionWindow.png" height=300 width=1000 border=6>
 </font>
 <br/>
 <br/>
@@ -160,18 +160,18 @@
 
 
 <font color="Blue">
-<img src="SailingWindow.png" height=300 width=1000 border=>
+<img src="image/SailingWindow.png" height=300 width=1000 border=>
 </font>
 <br>
 <br>
 <font color="yellow">
-<img src="GameOverWindow.png" height=300 width=1000 border=4>
+<img src="image/GameOverWindow.png" height=300 width=1000 border=4>
 </font color>
 <br/>
 <br/>
 <br/>  
 <font color="yellow">
-<img src="CreditWindow.png" height=300 width=1000 border=4>
+<img src="image/CreditWindow.png" height=300 width=1000 border=4>
 </font color>
 <br/>
 <br/>
