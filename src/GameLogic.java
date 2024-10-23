@@ -62,7 +62,8 @@ public class GameLogic {
             Obstacle obs = obstacles.get(i);
             obs.move(obstacleSpeed);
 
-            if (obs.getX() < 0) {
+            // Adjusted removal logic to use bounding box for width
+            if (obs.getX() + obs.getBounds().width < 0) {
                 obstacles.remove(i);
                 score++;
             }
