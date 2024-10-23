@@ -88,7 +88,7 @@
 <br><br>
 
 <div align="center">
-<p style="color:#ffd633"><u><i><h2>Difficulty Level</h2><</i></u>/p>
+<p style="color:#ffd633"><u><i><h2>Difficulty Level</h2><</i></u></p>
 </div>
 
 * ***<p style="color:#ffd633">Easy</p>*** 
