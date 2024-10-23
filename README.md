@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <center><b><u><font color="Yellow" size="6">Game Property</font></u></b></center>
 <br/>
 
@@ -185,6 +185,4 @@
 [Md Kabir Hossain](https://www.facebook.com/Kabir.Hossain2429/)
 
 
-=======
 This is our First Java Project. It's mainly a GUI based where we tried to implement our idea of a traditional Bangladeshi game called Nouka Baich.
->>>>>>> 3115a07d7810124e3c0cc826c544ac9aaad71672
