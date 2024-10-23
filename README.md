@@ -110,7 +110,7 @@
 <br/>  
 
 <div align="center">
- <p style="color:orange"><u><h2><i>Instructions</i></h2></u>u2</p>
+ ***<p style="color:orange"><u><h2><i>Instructions</i></h2></u></p>***
 </div>
 
 
