@@ -58,7 +58,7 @@
 * ***<p style="color:lime">It's been developed in Adobe Photoshop.***</p>
 
 <font color="lime">
-<img src="Image/boat.png" height=400 width=1000 border=4 style="border-radius:15px">
+<img src="Image/boat.png" height=300 width=300 border=4 style="border-radius:15px">
 </font>
 <br/>
 <br/>
@@ -128,7 +128,7 @@
 
 
 <font color="Black">
-<img src="Image/obstacle.png" height=400 width=1000 border=4>
+<img src="Image/obstacle.png" height=300 width=300 border=4>
 </font>  
 <br/>
 <br/>
