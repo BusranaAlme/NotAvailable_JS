@@ -1,5 +1,4 @@
 package MainGame;
-import BoatObstacle.*;
 import java.awt.Rectangle;
 
 public class GameUI {
