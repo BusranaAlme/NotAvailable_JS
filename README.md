@@ -4,7 +4,7 @@
  > ### <p style="color:#e3ff33"><i>GUI based Java Project Using Java Swing</i></p>
 <hr color="purple" width=1000>  
 <font color="#186a3b">
-<table border=10 bgcolor="#17202a" width= 600 height=300>
+<table border=10 bgcolor="#17202a" width= 600 height=150>
     <thead> <font size="4" color=" yellow" ><b><i> Major Idea listed in short:- </i></b></font></thead>
     <tbody>
         <tr>
@@ -52,7 +52,7 @@
 <br/>
 <br/>  
 
->##  <p style="color:orange">Boat</p>
+>##  ***<p style="color:orange">Boat</p>***
 
 *  ***<p style="color:lime">A river boat,Fantastic looking*** </p> 
 * ***<p style="color:lime">It's been developed in Adobe Photoshop.***</p>
@@ -64,7 +64,7 @@
 <br/>
 <br/>  
 
-> ## <p style="color:orange">First Window appears with Only Four Options</p>
+> ## ***<p style="color:orange">First Window appears with Only Four Options</p>***
 * ***<p style="color:gold">Start***</p>   
 
       * Easy 
@@ -79,16 +79,16 @@
 <br>
 <br><br>
 
-> ## <p style="color:#ffd633">Difficulty Level</p>
-* <p style="color:#ffd633">Easy</p>  
+> ## ***<p style="color:#ffd633">Difficulty Level</p>***
+* ***<p style="color:#ffd633">Easy</p>*** 
 
      * <p style="color:lime">It starts with very small speed.</p>  
-* <p style="color:#ffd633">Medium</p>  
+* ***<p style="color:#ffd633">Medium</p>*** 
 
-     *  <p style="color:lime">It starts with very average speed.</p>  
-* <p style="color:#ffd633">Hard</p>  
+     *  ***<p style="color:lime">It starts with very average speed.</p>***  
+* ***<p style="color:#ffd633">Hard</p>*** 
 
-     * <p style="color:lime">It starts with very high speed.</p>
+     * ***<p style="color:lime">It starts with very high speed.</p>***
 
 
 <font color="#33d3ff">
@@ -98,7 +98,7 @@
 <br/>
 <br/>  
 
-> ## <p style="color:orange">Instructions</p>
+> ## ***<p style="color:orange">Instructions</p>***
 * <p style="color:lime"> Use upward arrow sign to move the boat perpendicularly upward.</p>  
 * <p style="color:lime"> Use downward arrow sign to move the boat perpendicularly downward.</p>
 * <p style="color:lime"> Press ESC kew to exit the game.</p>
@@ -124,7 +124,7 @@
 <br/>
 <br/>  
 
-> ## <p style="color:orange">Obstacles</p>
+> ## ***<p style="color:orange">Obstacles</p>***
 
 
 <font color="Black">
@@ -139,7 +139,7 @@
   
 
 
-> ## <p style="color:Orange">Game Over </p>  
+> ## ***<p style="color:Orange">Game Over </p>*** 
 
 * ***<p style="color:lime">It offers two options:-***</p>
      * ***<p style="color:lime">Play again***</p>  
@@ -154,7 +154,7 @@
 <br/>
 <br/>  
 
-> ## <p style="color:Orange"> Created By</p>  
+> ## ***<p style="color:Orange"> Created By</p>*** 
 * ***There is an option to go back to previous window.***  
 
 * ***<p style="color:pink">Md.Ahad Siddiki***</p>  
