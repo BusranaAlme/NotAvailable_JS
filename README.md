@@ -2,7 +2,8 @@
 <br/>
 
  > ### <p style="color:#e3ff33"><i>GUI based Java Project Using Java Swing</i></p>
-<hr color="purple" width=1000>  
+<hr color="purple" width=1000> 
+<div align="center">
 <font color="#186a3b">
 <table border=10 bgcolor="#17202a" width= 600 height=200>
     <thead> <font size="4" color=" yellow" ><b><i> Major Idea listed in short:- </i></b></font></thead>
@@ -32,6 +33,7 @@
    </tbody>
 </table>
 </font>
+</div>
 <br/>
 <br/>
 
