@@ -42,7 +42,7 @@
 
 
 <div align="center">
- ***<p style="color:orange">Background</p>***  
+ <p style="color:orange"><h2><u><i>Background</i>i</u></h2></p> 
 </div>
 
 
@@ -59,7 +59,7 @@
 
 <div align="center">  
  
-  ***<p style="color:orange">Boat</p>***
+<p style="color:orange"><h2><u><i>Boat</i><</u><h2>/p>
 </div>
 
 *  ***<p style="color:lime">A river boat,Fantastic looking*** </p> 
@@ -88,7 +88,7 @@
 <br><br>
 
 <div align="center">
- ***<p style="color:#ffd633">Difficulty Level</p>***
+<p style="color:#ffd633"><u><i><h2>Difficulty Level</h2><</i></u>/p>
 </div>
 
 * ***<p style="color:#ffd633">Easy</p>*** 
@@ -110,7 +110,7 @@
 <br/>  
 
 <div align="center">
-> ## ***<p style="color:orange">Instructions</p>***
+ <p style="color:orange"><u><h2><i>Instructions</i></h2></u>u2</p>
 </div>
 
 
@@ -178,7 +178,7 @@
 <br/>  
 
 <div align="center">
- ***<p style="color:Orange"> Created By</p>*** 
+<p style="color:Orange"><u><i><h2> Created By</p>
 </div>
 
 
