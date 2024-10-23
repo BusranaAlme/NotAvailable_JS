@@ -1,4 +1,6 @@
-<center><b><u><font color="Yellow" size="15">Game Property</font></u></b></center>
+<div align="center">
+ <h1 style="color:lime"><u><b> Game Property</b></u></h1>
+</div>
 <br/>
 
  > ### <p style="color:#e3ff33"><i>GUI based Java Project Using Java Swing</i></p>
@@ -39,9 +41,10 @@
 
 
 
-
-
+<div align="center">
 >##  <p style="color:orange">Background</p>  
+</div>
+
 
 
 *  ***<p style="color:lime">A River  flowing towards left side*** </p> 
@@ -54,7 +57,10 @@
 <br/>
 <br/>  
 
->##  ***<p style="color:orange">Boat</p>***
+<div align="center">  
+ 
+ >##  ***<p style="color:orange">Boat</p>***
+</div>
 
 *  ***<p style="color:lime">A river boat,Fantastic looking*** </p> 
 * ***<p style="color:lime">It's been developed in Adobe Photoshop.***</p>
@@ -81,7 +87,10 @@
 <br>
 <br><br>
 
-> ## ***<p style="color:#ffd633">Difficulty Level</p>***
+<div align="center">
+ > ## ***<p style="color:#ffd633">Difficulty Level</p>***
+</div>
+
 * ***<p style="color:#ffd633">Easy</p>*** 
 
      * <p style="color:lime">It starts with very small speed.</p>  
@@ -100,7 +109,11 @@
 <br/>
 <br/>  
 
+<div align="center">
 > ## ***<p style="color:orange">Instructions</p>***
+</div>
+
+
 * <p style="color:lime"> Use upward arrow sign to move the boat perpendicularly upward.</p>  
 * <p style="color:lime"> Use downward arrow sign to move the boat perpendicularly downward.</p>
 * <p style="color:lime"> Press ESC kew to exit the game.</p>
@@ -109,9 +122,12 @@
 </font>
 <br>
 <br/>
-<br/>  
+<br/>    
 
+<div align="center">
 > ## <p style="color:orange">Sailing Boat and Obstacles</p>
+</div>
+
 ***<p style="color:lime">Main obstacle in this game. These come from right direction of the window with a minimum speed and becomes faster with the time.***</p> 
 * ***<p style="color:lime">major obstacle names:-***</p>
 
@@ -124,9 +140,12 @@
 </font color>
 <br/>
 <br/>
-<br/>  
+<br/>    
 
+<div align="center">
 > ## ***<p style="color:orange">Obstacles</p>***
+</div>
+
 
 
 <font color="Black">
@@ -139,9 +158,11 @@
 
 
   
-
-
+<div align="center">
 > ## ***<p style="color:Orange">Game Over </p>*** 
+
+</div>
+
 
 * ***<p style="color:lime">It offers two options:-***</p>
      * ***<p style="color:lime">Play again***</p>  
@@ -156,7 +177,11 @@
 <br/>
 <br/>  
 
+<div align="center">
 > ## ***<p style="color:Orange"> Created By</p>*** 
+</div>
+
+
 * ***There is an option to go back to previous window.***  
 
 * ***<p style="color:pink">Md.Ahad Siddiki***</p>  
