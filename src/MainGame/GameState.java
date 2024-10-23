@@ -1,3 +1,5 @@
+package MainGame;
+
 public enum GameState {
     MENU, DIFFICULTY_SELECTION, PLAYING, GAME_OVER, PAUSED, INSTRUCTIONS, CREDITS
 }

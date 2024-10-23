@@ -1,3 +1,5 @@
+package MainGame;
+
 import javax.sound.sampled.*;
 import java.io.*;
 

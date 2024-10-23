@@ -1,8 +1,10 @@
+package BoatObstacle;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-class Boat {
+public class Boat {
     private int x, y;
     private int dx, dy;
     private int width, height;

@@ -1,7 +1,9 @@
+package BoatObstacle;
+
 import javax.swing.*;
 import java.awt.*;
 
-class Obstacle {
+public class Obstacle {
     private int x, y;
     private int width, height;
     private Image obstacleImage;
