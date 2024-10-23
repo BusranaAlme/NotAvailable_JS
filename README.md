@@ -1,4 +1,4 @@
-<center><b><u><font color="Yellow" size="6">Game Property</font></u></b></center>
+<center><b><u><font color="Yellow" size="15">Game Property</font></u></b></center>
 <br/>
 
  > ### <p style="color:#e3ff33"><i>GUI based Java Project Using Java Swing</i></p>
