@@ -36,7 +36,7 @@
 
 
 >## The Following pictuere is the Background of this game.
-*  ***A River  flowing towarsd left side***  
+*  ***A River  flowing towards left side***  
 *  ***Multiple obstale coming from right side.(let's see the next picture of obstacle in this game.)***
 
 <font color="yellow">
