@@ -46,7 +46,7 @@
 *  ***<p style="color:lime">Multiple obstale coming from right side.(let's see the next picture of obstacle in this game.)*** </p>
 
 <font color="Lime">
-<img src="Image/mainbg.png" height=400 width=1000 border=4 style="border-radius:15px" >
+<img src="Image/mainbg.png" height=400 width=1000 border=4 style="border-radius:25px" >
 </font color>
 <br/>
 <br/>
