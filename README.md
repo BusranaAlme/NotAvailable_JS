@@ -8,7 +8,7 @@
 <div align="center">
 <font color="#186a3b">
 <table border=10 bgcolor="#17202a" width= 600 height=200>
-    <thead> <font size="4" color=" yellow" ><b><i> Major Idea listed in short:- </i></b></font></thead>
+    <thead> <font size="8" color=" yellow" ><b><i> Major Idea listed in short:- </i></b></font></thead>
     <tbody>
         <tr>
               <td colspan="4"> <center><b><u><font color="Green" size="6">NoukaBaich</u></b></center></td>
@@ -42,7 +42,7 @@
 
 
 <div align="center">
->##  <p style="color:orange">Background</p>  
+ ***<p style="color:orange">Background</p>***  
 </div>
 
 
@@ -59,7 +59,7 @@
 
 <div align="center">  
  
- >##  ***<p style="color:orange">Boat</p>***
+  ***<p style="color:orange">Boat</p>***
 </div>
 
 *  ***<p style="color:lime">A river boat,Fantastic looking*** </p> 
@@ -88,7 +88,7 @@
 <br><br>
 
 <div align="center">
- > ## ***<p style="color:#ffd633">Difficulty Level</p>***
+ ***<p style="color:#ffd633">Difficulty Level</p>***
 </div>
 
 * ***<p style="color:#ffd633">Easy</p>*** 
@@ -125,7 +125,7 @@
 <br/>    
 
 <div align="center">
-> ## <p style="color:orange">Sailing Boat and Obstacles</p>
+ ***<p style="color:orange">Sailing Boat and Obstacles</p>***
 </div>
 
 ***<p style="color:lime">Main obstacle in this game. These come from right direction of the window with a minimum speed and becomes faster with the time.***</p> 
@@ -143,7 +143,7 @@
 <br/>    
 
 <div align="center">
-> ## ***<p style="color:orange">Obstacles</p>***
+ ***<p style="color:orange">Obstacles</p>***
 </div>
 
 
@@ -159,7 +159,7 @@
 
   
 <div align="center">
-> ## ***<p style="color:Orange">Game Over </p>*** 
+ ***<p style="color:Orange">Game Over </p>*** 
 
 </div>
 
@@ -178,7 +178,7 @@
 <br/>  
 
 <div align="center">
-> ## ***<p style="color:Orange"> Created By</p>*** 
+ ***<p style="color:Orange"> Created By</p>*** 
 </div>
 
 
